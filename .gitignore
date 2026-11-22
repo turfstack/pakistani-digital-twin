@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Large generated files: regenerate with the scripts (seed 42)
+data/cohort_cyp2c19_*.csv
+data/sim_runs.csv

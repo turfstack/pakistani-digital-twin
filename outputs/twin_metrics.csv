@@ -1,0 +1,17 @@
+set,target,RMSE,R2,within_1.25x,within_2x,coverage90
+AI twin: held-out people,logAUC,0.0113,1.0,1.0,1.0,0.9656
+AI twin: held-out people,logCmax,0.0087,1.0,1.0,1.0,0.9689
+AI twin: held-out people,tmax,0.0034,0.9998,1.0,1.0,0.8361
+Baseline: linear regression,logAUC,0.2028,0.9933,0.9317,0.9844,
+Baseline: linear regression,logCmax,0.1224,0.9968,0.9328,1.0,
+Baseline: linear regression,tmax,0.0706,0.92,0.955,1.0,
+Baseline: gradient boosting,logAUC,0.022,0.9999,1.0,1.0,
+Baseline: gradient boosting,logCmax,0.024,0.9999,0.9994,1.0,
+Baseline: gradient boosting,tmax,0.007,0.9992,1.0,1.0,
+Baseline: closed-form formula (AUC only),logAUC,0.0,1.0,1.0,1.0,
+AI twin: held-out Mars (0.38 g),logAUC,0.1439,0.9966,0.9767,1.0,0.18
+AI twin: held-out Mars (0.38 g),logCmax,0.1201,0.9969,0.9983,1.0,0.21
+AI twin: held-out Mars (0.38 g),tmax,0.0251,0.9882,1.0,1.0,0.495
+AI twin: train riaz2019 -> test pk2021,logAUC,0.0206,0.9999,0.999,1.0,0.9662
+AI twin: train riaz2019 -> test pk2021,logCmax,0.0138,1.0,1.0,1.0,0.9663
+AI twin: train riaz2019 -> test pk2021,tmax,0.0062,0.9994,1.0,1.0,0.8913

@@ -1,0 +1,7 @@
+environment,parameter,multiplier,low,high,evidence,source
+space,ka,1.5,1.0,2.0,low-medium,Gandia 2003 (J Clin Pharmacol 43:1235; 18 volunteers; 1 g acetaminophen; -6 deg bed rest): tmax 1.41 h (day 1) to 0.91 h (day 80); ratio 0.65. Size mapped to ka by me
+space,fa,1.03,1.00,1.10,low,Same study reports significant AUC increases; size not checked in the full text - placeholder
+space,V_cen,0.95,0.90,1.00,low,Fluid shift/plasma volume reduction suggested by reviews; size is a placeholder assumption
+space,Qh,1.00,0.90,1.10,low,Reviews list blood-flow change as possible; direction and size unknown - placeholder
+space,CLint,0.95,0.80,1.10,low,Mostly rodent data; direction and size unknown - placeholder
+space,fu,1.00,0.95,1.05,low,Protein binding change listed in reviews; direction unknown - placeholder
